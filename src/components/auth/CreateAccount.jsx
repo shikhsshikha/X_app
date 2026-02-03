@@ -6,7 +6,6 @@ const CreateAccount = () => {
   return (
     <div className="min-h-screen bg-black text-white flex items-center justify-center px-4">
       
-      {/* Card */}
       <div className="w-full max-w-md bg-black border border-gray-800 rounded-2xl p-8 shadow-xl">
         
         {/* Header */}
@@ -19,7 +18,6 @@ const CreateAccount = () => {
           </p>
         </div>
 
-        {/* Form */}
         <div className="space-y-5">
           
           {/* Name */}
@@ -91,12 +89,10 @@ const CreateAccount = () => {
           </div>
         </div>
 
-        {/* CTA */}
         <button className="w-full h-12 mt-8 bg-white text-black rounded-full font-bold text-[15px] hover:bg-gray-200 transition">
           Create account
         </button>
 
-        {/* Legal */}
         <p className="text-xs text-gray-500 leading-4 text-center mt-6">
           By signing up, you agree to the{" "}
           <span className="text-[#1d9bf0] hover:underline cursor-pointer">
@@ -113,7 +109,6 @@ const CreateAccount = () => {
           .
         </p>
 
-        {/* Back */}
         <button
           onClick={() => navigate("/")}
           className="w-full text-center text-sm text-[#1d9bf0] hover:underline mt-6"

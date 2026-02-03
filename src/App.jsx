@@ -10,7 +10,6 @@ import SignIn from "./components/auth/SignIn";
 import GrokRedirect from "./components/auth/GrokRedirect";
 
 
-/* Simple placeholder for other pages */
 const PlaceholderPage = ({ title }) => (
   <div className="min-h-screen bg-black text-white flex items-center justify-center text-3xl">
     {title}
@@ -67,12 +66,10 @@ const AppLayout = () => {
         <Route path="/settings" element={<PlaceholderPage title="Settings" />} />
       </Routes>
 
-      {/* ✅ Footer ONLY on main login page */}
       {location.pathname === "/" && <Footer />}
     </div>
   );
 };
-
 
 const App = () => {
   return (

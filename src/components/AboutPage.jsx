@@ -3,7 +3,7 @@ import XLogoBlack from "../assets/X-logo-black.png";
 const AboutPage = () => {
   return (
     <div className="w-full min-h-screen bg-white">
-      {/* ===== Top Navbar ===== */}
+      {/* Navbar */}
       <header className="flex mt-4 ml-3 items-center justify-between px-10 py-6">
         <div className="flex items-center gap-3">
           <img
@@ -26,7 +26,7 @@ const AboutPage = () => {
         </nav>
       </header>
 
-      {/* ===== Hero Section ===== */}
+      {/* Hero Section */}
       <section className="flex items-center justify-center -mt-3.5 py-32">
         <img
         src={XLogoBlack}
@@ -104,22 +104,15 @@ const AboutPage = () => {
             </ul>
           </div>
 
-          {/* Bottom row aligned with columns */}
           <div className="col-span-5 ml-23 grid font-bold grid-cols-5 text-sm text-[#c2c7cd]">
-            
-            {/* Column 1 */}
             <span>© 2026 X Corp.</span>
 
-            {/* Column 2 */}
             <span className="-ml-5">Cookies</span>
 
-            {/* Column 3 */}
             <span className="-ml-12">Privacy</span>
 
-            {/* Column 4 */}
             <span className="-ml-22">Terms and conditions</span>
 
-            {/* Column 5 */}
             <span className="flex items-center gap-1 -ml-6">
               English <span className="text-[10px]">▾</span>
             </span>

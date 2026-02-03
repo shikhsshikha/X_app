@@ -6,7 +6,6 @@ const SignIn = () => {
   return (
     <div className="min-h-screen bg-black text-white flex items-center justify-center px-4">
       
-      {/* Card */}
       <div className="w-full max-w-md bg-black border border-gray-800 rounded-2xl p-8 shadow-xl">
         
         {/* Header */}
@@ -19,10 +18,8 @@ const SignIn = () => {
           </p>
         </div>
 
-        {/* Form */}
         <div className="space-y-5">
           
-          {/* Identifier */}
           <div>
             <label
             htmlFor="identifier"
@@ -60,12 +57,10 @@ const SignIn = () => {
           </div>
         </div>
 
-        {/* CTA */}
         <button className="w-full h-12 mt-8 bg-white text-black rounded-full font-bold text-[15px] hover:bg-gray-200 transition">
           Sign in
         </button>
 
-        {/* Helper links */}
         <div className="flex justify-between mt-4 text-sm text-[#1d9bf0]">
           <span className="hover:underline cursor-pointer">
             Forgot password?
@@ -79,14 +74,12 @@ const SignIn = () => {
           </span>
         </div>
 
-        {/* Divider */}
         <div className="flex items-center gap-3 my-6">
           <div className="flex-1 h-px bg-gray-800" />
           <span className="text-xs text-gray-500">OR</span>
           <div className="flex-1 h-px bg-gray-800" />
         </div>
 
-        {/* Back */}
         <button
           onClick={() => navigate("/")}
           className="w-full text-center text-sm text-[#1d9bf0] hover:underline"
