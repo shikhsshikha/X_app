@@ -84,7 +84,7 @@ const SignIn = () => {
           onClick={() => navigate("/")}
           className="w-full text-center text-sm text-[#1d9bf0] hover:underline"
         >
-          ← Back to login
+          ← Back to home
         </button>
       </div>
     </div>

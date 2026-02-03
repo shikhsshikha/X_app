@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import XLogo from "../../assets/X-logo.png";
 
 const SignupGoogle = () => {
   const navigate = useNavigate();
@@ -8,13 +9,15 @@ const SignupGoogle = () => {
       
       <div className="relative w-full max-w-md bg-black border border-gray-800 rounded-3xl p-10 shadow-2xl">
         
+        {/* X Logo */}
         <div className="flex justify-center mb-6">
-          <img
-            src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png"
+        <img
+            src={XLogo}
             alt="X"
             className="w-10 h-10"
-          />
+        />
         </div>
+
 
         {/* Header */}
         <div className="text-center mb-8">

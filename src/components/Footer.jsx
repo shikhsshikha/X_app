@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const links = [
   { label: "About", path: "/about" },
   { label: "Download the X app", path: "/download" },
-  { label: "Grok", path: "/grok" },
+  { label: "Grok", external: true, url: "https://grok.com" },
   { label: "Help Center", path: "/help" },
   { label: "Terms of Service", path: "/terms" },
   { label: "Privacy Policy", path: "/privacy" },
@@ -29,12 +29,23 @@ const Footer = () => {
           <span key={item.label} className="flex items-center">
             {index !== 0 && <span className="mx-2">|</span>}
 
-            <Link
-              to={item.path}
-              className="hover:underline cursor-pointer"
-            >
-              {item.label}
-            </Link>
+            {item.external ? (
+              <a
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline cursor-pointer"
+              >
+                {item.label}
+              </a>
+            ) : (
+              <Link
+                to={item.path}
+                className="hover:underline cursor-pointer"
+              >
+                {item.label}
+              </Link>
+            )}
           </span>
         ))}
 

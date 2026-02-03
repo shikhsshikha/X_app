@@ -1,4 +1,4 @@
-import XLogoBlack from "../assets/X-logo-black.png";
+import XLogoBlack from "../../assets/X-logo-black.png";
 
 const AboutPage = () => {
   return (
