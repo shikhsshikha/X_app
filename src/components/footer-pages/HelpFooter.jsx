@@ -6,7 +6,7 @@ const HelpFooter = () => {
   return (
     <div className="min-h-screen bg-[#f7f9f9] text-black">
 
-      {/* ===== Help Center Navbar ===== */}
+      {/* Top Navbar */}
       <header className="sticky top-0 z-50 bg-white border-b border-black/10">
         <div className="h-16 max-w mx-auto px-8 py-12 flex items-center justify-between">
 
@@ -52,7 +52,7 @@ const HelpFooter = () => {
       </header>
 
 
-      {/* ===== Hero Section ===== */}
+      {/* Hero Section */}
       <section className="relative bg-black h-120 flex items-center">
   
       {/* Left content */}
@@ -76,7 +76,7 @@ const HelpFooter = () => {
         </div>
       </div>
 
-      {/* Right BIG X */}
+      {/* X logo */}
       <img
         src={XWhite}
         alt="X background"
@@ -86,7 +86,7 @@ const HelpFooter = () => {
     </section>
 
 
-      {/* ===== Download Buttons ===== */}
+      {/* Download Buttons */}
       <section className="max-w-7xl mx-40  px-6 py-8">
         <div className="flex flex-col  gap-6">
           <button className="px-8 py-3 bg-black text-white rounded-full font-semibold w-fit">
@@ -98,7 +98,7 @@ const HelpFooter = () => {
         </div>
       </section>
 
-      {/* ===== Help Categories ===== */}
+      {/* Help Categories */}
       <section className="max-w-6xl mx-45 px-6 py-10">
         <div className="grid md:grid-cols-2 gap-15 items-start">
 
@@ -176,7 +176,7 @@ const HelpFooter = () => {
         </div>
       </section>
 
-      {/* ===== More Resources ===== */}
+      {/* More Resources */}
       <section className="bg-[#eef3f4]">
         <div className="max-w-7xl mx-40 px-6  py-50">
 

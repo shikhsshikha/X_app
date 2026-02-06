@@ -3,11 +3,10 @@ import XLogoBlack from "../../assets/X-logo-black.png";
 const BrandFooter = () => {
   return (
     <>
-      {/* ===== Sticky Top Brand Navbar ===== */}
+      {/* Top Navbar */}
       <header className="sticky top-0 z-50 bg-white ">
         <div className="flex items-center justify-between px-10 py-6">
 
-          {/* Left */}
           <div className="flex items-center gap-3">
             <img src={XLogoBlack} alt="X" className="h-7 w-auto" />
             <span className="text-[23px] font-bold text-black">
@@ -15,7 +14,6 @@ const BrandFooter = () => {
             </span>
           </div>
 
-          {/* Right Nav */}
           <nav className="flex items-center gap-5 text-[13px] text-gray-700">
             <button className="hover:underline">
               Who we are ▾
@@ -36,7 +34,7 @@ const BrandFooter = () => {
 
       <main className="w-full bg-white px-10 py-20">
 
-        {/* ===== Hero (FULL WIDTH – NOT CENTERED) ===== */}
+        {/* Hero */}
         <h1 className="text-[80px] font-extrabold font-stretch-ultra-expanded mt-40 text-[#0f1419]">
           Brand toolkit
         </h1>
@@ -47,10 +45,8 @@ const BrandFooter = () => {
 
         <div className="h-110"></div>
 
-        {/* ===== CENTERED CONTENT WRAPPER ===== */}
         <div className="max-w-6xl mx-auto">
-
-          {/* ===== X Logo ===== */}
+          {/* X Logo*/}
           <section className="flex items-center justify-between py-14 border-b border-black/10">
             <div className="flex items-center gap-10">
               <img
@@ -76,7 +72,7 @@ const BrandFooter = () => {
             </button>
           </section>
 
-          {/* ===== Logo handle lockups ===== */}
+          {/* Logo handle lockups */}
           <section className="flex items-center justify-between py-14 border-b border-black/10">
             <div className="flex items-center gap-10">
               <img
@@ -102,7 +98,7 @@ const BrandFooter = () => {
             </button>
           </section>
 
-          {/* ===== Logo partnership lockups ===== */}
+          {/* Logo partnership lockups */}
           <section className="flex items-center justify-between py-14 border-b border-black/10">
             <div className="flex items-center gap-10">
               <img
@@ -127,7 +123,7 @@ const BrandFooter = () => {
             </button>
           </section>
 
-          {/* ===== Posts templates ===== */}
+          {/* Posts templates */}
           <section className="flex items-center justify-between py-14 border-b border-black/10">
             <div className="flex items-center gap-10">
               <img
@@ -154,7 +150,7 @@ const BrandFooter = () => {
             </button>
           </section>
 
-          {/* ===== Legal + Publishing ===== */}
+          {/* Legal + Publishing */}
           <section className="grid grid-cols-2 gap-30 pt-20 mt-20 mb-20">
 
             {/* Left */}
@@ -206,7 +202,7 @@ const BrandFooter = () => {
       </main>
 
 
-      {/* ===== Footer (Exact Same) ===== */}
+      {/* Footer */}
       <footer className="bg-[#0f1419] px-20 py-21">
         <div className="grid grid-cols-5 text-[#A1A1A1] -mt-12 -mb-10 gap-12 text-sm">
 

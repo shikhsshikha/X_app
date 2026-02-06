@@ -5,7 +5,7 @@ const AccessibilityFooter = () => {
   return (
     <div className="w-full bg-white">
 
-      {/* ===== Help Center Navbar (UNCHANGED) ===== */}
+      {/* Top Navbar */}
       <header className="sticky top-0 z-50 bg-white">
               <div className="h-16 max-w mx-auto px-8 py-12 flex items-center justify-between">
       
@@ -57,17 +57,15 @@ const AccessibilityFooter = () => {
               </div>
             </header>
 
-      {/* ===== PAGE CONTENT ===== */}
+      {/* PAGE CONTENT */}
       <main className="max-w-7xl mx-40 bg-white px-10 py-16 mt-8 mb-20">
 
-        {/* Title */}
         <h1 className="text-[66px] font-bold text-[#0f1419]">
           Accessibility at X
         </h1>
 
         <hr className="my-5 border-black/40 " />
 
-        {/* Intro */}
         <p className="text-[18px] text-[#0f1419] leading-7 mt-8 max-w-7xl">
           Here at X, our mission is to give <strong>everyone</strong> the power to
           create and share ideas and information instantly{" "}
@@ -158,7 +156,7 @@ const AccessibilityFooter = () => {
           </p>
         </section>
 
-        {/* ===== Software requirements ===== */}
+        {/* Software requirements */}
         <section className="mt-8">
           <h2 className="text-[34px] font-bold  text-[#0f1419]">
             Software requirements
@@ -178,7 +176,7 @@ const AccessibilityFooter = () => {
           </ul>
         </section>
 
-        {/* ===== Accessibility consultant support ===== */}
+        {/* Accessibility consultant support */}
         <section className="mt-20">
           <h2 className="text-[34px] font-bold  text-[#0f1419]">
             Accessibility consultant support
@@ -194,7 +192,7 @@ const AccessibilityFooter = () => {
           </p>
         </section>
 
-        {/* ===== Community created content ===== */}
+        {/* Community created content */}
         <section className="mt-8">
           <h3 className="text-[23px] font-bold text-[#0f1419] mb-3">
             Community created content
@@ -210,7 +208,7 @@ const AccessibilityFooter = () => {
           </p>
         </section>
 
-        {/* ===== Contact ===== */}
+        {/* Contact */}
         <section className="mt-8">
           <h2 className="text-[34px] font-bold  text-[#0f1419]">
             Contact
