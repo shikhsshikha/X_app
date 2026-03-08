@@ -15,6 +15,7 @@ import BusinessFooter from "./BusinessFooter";
 import DevelopersFooter from "./DevelopersFooter";
 import NewsFooter from "./NewsFooter";
 import SettingsFooter from "./SettingsFooter";
+import AdditionalSignupLoginHelp from "../additionalPages/AdditionalSignupLoginHelp";
 
 const footerRoutes = [
   { path: "/about", element: AboutPage },
@@ -34,6 +35,7 @@ const footerRoutes = [
   { path: "/developers", element: DevelopersFooter },
   { path: "/news", element: NewsFooter },
   { path: "/settings", element: SettingsFooter },
+  {path: "/help/en/additional-signup-login",element: AdditionalSignupLoginHelp}
 ];
 
 export default footerRoutes;

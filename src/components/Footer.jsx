@@ -23,8 +23,8 @@ const links = [
 
 const Footer = () => {
   return (
-    <footer className="w-380 text-[#71767b] text-[11px] leading-4 py-4">
-      <div className="flex justify-center whitespace-nowrap overflow-hidden px-2">
+    <footer className="w-full md:w-380 text-[#71767b] text-[11px] leading-4 py-4">
+      <div className="flex flex-wrap justify-center px-4 gap-y-2 text-center">
         {links.map((item, index) => (
           <span key={item.label} className="flex items-center">
             {index !== 0 && <span className="mx-2">|</span>}

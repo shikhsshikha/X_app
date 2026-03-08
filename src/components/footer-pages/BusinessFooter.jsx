@@ -1,7 +1,8 @@
 import FooterBasePage from "./FooterBasePage";
+import MarketingFooter from "./MarketingFooter";
 
 const BusinessFooter = () => {
-  return <FooterBasePage title="X for Business" />;
+  return <MarketingFooter />;
 };
 
 export default BusinessFooter;

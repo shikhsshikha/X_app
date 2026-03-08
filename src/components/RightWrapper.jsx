@@ -1,12 +1,12 @@
 import TopRightPanel from "./TopRightPanel";
 import RightPanel from "./RightPanel";
 
-const RightWrapper = () => {
+const RightWrapper = ({ onSignupSuccess }) => {
   return (
-    <div className="flex w-full md:w-1/2 items-center px-8">
-      <div className="w-full max-w-140">
+    <div className="flex w-full md:w-1/2 md:items-start items-center px-8 md:px-8">
+      <div className="w-full max-w-full md:max-w-140">
         <TopRightPanel />
-        <RightPanel />
+        <RightPanel onSignupSuccess={onSignupSuccess}  />
       </div>
     </div>
   );

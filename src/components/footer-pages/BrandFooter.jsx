@@ -1,4 +1,5 @@
 import XLogoBlack from "../../assets/X-logo-black.png";
+import BaseFooter from "../BaseFooter";
 
 const BrandFooter = () => {
   return (
@@ -14,15 +15,16 @@ const BrandFooter = () => {
             </span>
           </div>
 
-          <nav className="flex items-center gap-5 text-[13px] text-gray-700">
-            <button className="hover:underline">
-              Who we are ▾
+          <nav className="flex items-center tracking-wide gap-5 text-[13px] text-gray-700">
+            <button className="underline flex gap-1 decoration-[#1d9bf0] decoration-2 underline-offset-6">
+              Who we are <img src="https://img.icons8.com/?size=100&id=15810&format=png&color=000000" className="h-2 w-2 mt-1.5" alt="" />
             </button>
-            <button className="hover:underline">
-              Our priorities ▾
+
+            <button className="hover:underline flex gap-1">
+              Our priorities <img src="https://img.icons8.com/?size=100&id=15810&format=png&color=000000" className="h-2 w-2 mt-1.5" alt="" />
             </button>
-            <button className="hover:underline">
-              Resources ▾
+            <button className="hover:underline flex gap-1">
+              Resources <img src="https://img.icons8.com/?size=100&id=15810&format=png&color=000000" className="h-2 w-2 mt-1.5" alt="" />
             </button>
 
             <button className="ml-4 px-5 py-2 border rounded-full text-sm hover:bg-gray-100 transition">
@@ -203,86 +205,7 @@ const BrandFooter = () => {
 
 
       {/* Footer */}
-      <footer className="bg-[#0f1419] px-20 py-21">
-        <div className="grid grid-cols-5 text-[#A1A1A1] -mt-12 -mb-10 gap-12 text-sm">
-
-          <div>
-            <h4 className="mb-5 font-extrabold ml-23">X platform</h4>
-            <ul className="space-y-2 ml-23">
-              <li>X.com</li>
-              <li>Status</li>
-              <li>Accessibility</li>
-              <li>Embed a post</li>
-              <li>Privacy Center</li>
-              <li>Transparency Center</li>
-              <li>Download the X app</li>
-              <li>Try Grok.com</li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="mb-5 ml-7 font-extrabold">X Corp.</h4>
-            <ul className="space-y-2 ml-7">
-              <li>About the company</li>
-              <li>Company news</li>
-              <li>Brand toolkit</li>
-              <li>Jobs and internships</li>
-              <li>Investors</li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="mb-5 font-extrabold">Help</h4>
-            <ul className="space-y-2">
-              <li>Help Center</li>
-              <li>Using X</li>
-              <li>X for creators</li>
-              <li>Ads Help Center</li>
-              <li>Managing your account</li>
-              <li>Email Preference Center</li>
-              <li>Rules and policies</li>
-              <li>Contact us</li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="mb-5 -ml-9 font-extrabold">Developer resources</h4>
-            <ul className="space-y-2 -ml-9">
-              <li>Developer home</li>
-              <li>Documentation</li>
-              <li>Forums</li>
-              <li>Communities</li>
-              <li>Developer blog</li>
-              <li>Engineering blog</li>
-              <li>Developer terms</li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="mb-5 -ml-15 font-extrabold">Business resources</h4>
-            <ul className="space-y-2 -ml-15">
-              <li>Advertise</li>
-              <li>X for business</li>
-              <li>Resources and guides</li>
-              <li>X for marketers</li>
-              <li>Marketing insights</li>
-              <li>Brand inspiration</li>
-              <li>X Ads Academy</li>
-            </ul>
-          </div>
-
-          <div className="col-span-5 ml-23 grid grid-cols-5 text-sm font-bold text-[#A1A1A1] mt-10">
-            <span>© 2026 X Corp.</span>
-            <span className="-ml-5">Cookies</span>
-            <span className="-ml-12">Privacy</span>
-            <span className="-ml-22">Terms and conditions</span>
-            <span className="flex items-center gap-1 -ml-6">
-              English <span className="text-[10px]">▾</span>
-            </span>
-          </div>
-
-        </div>
-      </footer>
+      <BaseFooter />
     </>
   );
 };
