@@ -3,7 +3,6 @@ import { auth, googleProvider } from "../../firebase";
 
 const SignupGoogle = () => {
   const handleGoogleSignup = () => {
-    // 🔥 EXACTLY like real social media apps
     signInWithRedirect(auth, googleProvider);
   };
 

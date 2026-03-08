@@ -2,15 +2,12 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from "react-route
 import LeftPanel from "./components/LeftPanel";
 import RightWrapper from "./components/RightWrapper";
 import Footer from "./components/Footer";
-import SignupGoogle from "./components/auth/SignupGoogle";
 import SignupApple from "./components/auth/SignupApple";
 import CreateAccount from "./components/additionalPages/CreateAccount";
 import SignIn from "./components/additionalPages/SignIn";
 import GrokRedirect from "./components/auth/GrokRedirect";
 import footerRoutes from "./components/footer-pages/footerRoutes";
-import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "./firebase";
 import VerifyUsername from "./components/auth/VerifyUsername";
 import { useState } from "react";
@@ -22,7 +19,6 @@ import { Navigate } from "react-router-dom";
 
 const AppLayout = () => {
   const location = useLocation();
-  const navigate = useNavigate();
   const [showVerifyPopup, setShowVerifyPopup] = useState(false);
 
 

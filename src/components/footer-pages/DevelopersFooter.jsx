@@ -23,9 +23,8 @@ const DevelopersFooter = () => {
             className="max-w-full mx-35 h-18 flex items-center justify-between text-white
             "
           >
-            {/* ================= LEFT ================= */}
+            {/* LEFT */}
             <div className="flex items-center gap-12">
-              {/* X LOGO */}
               <img
                 src={XLogo}
                 alt="X"
@@ -49,7 +48,7 @@ const DevelopersFooter = () => {
               </nav>
             </div>
 
-            {/* ================= RIGHT ================= */}
+            {/* RIGHT */}
             <div className="flex items-center gap-4 ">
 
               {/* LANGUAGE */}
@@ -104,7 +103,6 @@ const DevelopersFooter = () => {
           className="w-full py-20 pb-30 flex items-center justify-center text-white relative overflow-hidden bg-[linear-gradient(135deg,#000000_0%,#000000_10%,#2a2a2a_55%,#111111_65%,#000000_80%,#000000_100%)]
           "
         >
-          {/* subtle noise / softness layer */}
           <div className="absolute inset-0 bg-black/40 " />
 
           {/* CONTENT */}
@@ -196,7 +194,7 @@ const DevelopersFooter = () => {
             {/* FEATURES GRID */}
             <div className="grid grid-cols-4">
 
-              {/* ================= COL 1 ================= */}
+              {/* COL 1 */}
               <div className="pr-10 border-l border-white/10 pl-10 ">
                 {/* ICON */}
                 <svg
@@ -242,7 +240,7 @@ const DevelopersFooter = () => {
                 </p>
               </div>
 
-              {/* ================= COL 3 ================= */}
+              {/* COL 3 */}
               <div className="border-l border-white/10 pl-10 pr-10">
                 {/* ICON */}
                 <svg
@@ -266,7 +264,7 @@ const DevelopersFooter = () => {
                 </p>
               </div>
 
-              {/* ================= COL 4 ================= */}
+              {/* COL 4 */}
               <div className="border-l border-white/10 pl-10">
                 {/* ICON */}
                 <svg
@@ -316,10 +314,9 @@ const DevelopersFooter = () => {
           </div>
 
           {/* MARQUEE */}
-          {/* ================= MARQUEE ================= */}
         <div className="relative space-y-14">
 
-          {/* Row 1 — LEFT → RIGHT */}
+          {/* Row 1 */}
           <div className="relative pl-10 overflow-hidden">
             <div className="flex gap-6 w-max animate-marquee-left">
               {[...MARQUEE_DATA, ...MARQUEE_DATA].map((item, i) => (
@@ -328,7 +325,7 @@ const DevelopersFooter = () => {
             </div>
           </div>
 
-          {/* Row 2 — RIGHT → LEFT */}
+          {/* Row 2 */}
           <div className="relative pl-10 overflow-hidden">
             <div className="flex gap-6 w-max animate-marquee-right">
               {[...MARQUEE_DATA, ...MARQUEE_DATA].map((item, i) => (
@@ -337,7 +334,7 @@ const DevelopersFooter = () => {
             </div>
           </div>
 
-          {/* Row 3 — LEFT → RIGHT */}
+          {/* Row 3 */}
           <div className="relative pl-10 overflow-hidden">
             <div className="flex gap-6 w-max animate-marquee-left">
               {[...MARQUEE_DATA, ...MARQUEE_DATA].map((item, i) => (
@@ -505,7 +502,6 @@ const DevelopersFooter = () => {
         <section className="w-full bg-black text-white pb-25 mb-10 py-8 border-b border-white/10">
           <div className="max-w-full mx-auto px-6 text-center">
 
-            {/* EYEBROW */}
             <div className="text-xs tracking-[0.1rem] text-white/50 mb-4">
               [ THE DIFFERENCE ]
             </div>
@@ -614,13 +610,11 @@ const DevelopersFooter = () => {
 
         <footer className="relative w-full bg-black text-white pt-20 pb-24 overflow-hidden">
 
-          {/* BACKGROUND GRADIENT */}
           <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.06)_0%,rgba(0,0,0,0.9)_55%,#000_100%)]" />
 
           {/* BOTTOM FADE */}
           <div className="pointer-events-none absolute inset-x-0 bottom-0 h-80 bg-linear-to-t from-[#6b6b6b]/30 via-transparent to-transparent" />
 
-          {/* FADED X LOGO — MOVED UP */}
           <div className="pointer-events-none absolute inset-x-0 top-18 flex justify-center">
             <img
               src={XLogo}
@@ -632,7 +626,7 @@ const DevelopersFooter = () => {
           {/* CONTENT */}
           <div className="relative max-w-full mx-75 ">
 
-            {/* LINKS — CLEARLY BELOW X */}
+            {/* LINKS */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-45 mb-28 mt-64">
 
               {/* PRODUCT */}

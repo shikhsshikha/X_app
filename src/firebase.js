@@ -18,7 +18,6 @@ const auth = getAuth(app);
 
 const googleProvider = new GoogleAuthProvider();
 
-// ✅ Apple
 const appleProvider = new OAuthProvider("apple.com");
 
 export { auth, googleProvider, appleProvider };

@@ -171,7 +171,7 @@ const AboutPage = () => {
 
       </header>
 
-      {/* ================= MOBILE MENU ================= */}
+      {/* MOBILE MENU */}
       {menuOpen && (
         <div className="fixed inset-0 bg-white z-50 px-6 pt-8">
 

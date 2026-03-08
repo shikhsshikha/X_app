@@ -4,7 +4,7 @@ import BaseFooter from "../BaseFooter";
 const TermsFooter = () => {
   return (
     <>
-      {/* ================= TOP NAVBAR ================= */}
+      {/* TOP NAVBAR */}
       <header className="sticky top-0 z-50 bg-white ">
         <div className="max-w-384 mx-auto px-12 h-20 mt-4 flex items-center justify-between">
 
@@ -29,17 +29,16 @@ const TermsFooter = () => {
         </div>
       </header>
 
-      {/* ===== HERO: TERMS OF SERVICE ===== */}
+      {/* HERO: TERMS OF SERVICE */}
       <section className="bg-white">
 
-        {/* Big Title */}
+        {/* Title */}
         <div className="max-w-384 mx-auto px-12 pt-41 pb-47">
           <h1 className="text-9xl leading-[1.05] font-extrabold text-[#0f1419] max-w-225">
             Terms of<br />Service
           </h1>
         </div>
 
-        {/* Dark Bar */}
         <div className="w-8xl mx-2 h-28 bg-linear-to-r from-[#0f1419] via-[#141a1f] to-[#0f1419] flex items-center justify-center">
           <span className="text-white text-[16px] font-semibold">
             Effective: January 15, 2026
@@ -47,7 +46,7 @@ const TermsFooter = () => {
         </div>
       </section>
 
-      {/* ===== Summary of our Terms ===== */}
+      {/* Summary of our Terms */}
       <section className="bg-white ">
         <div className="max-w-7xl mx-33 px-12 py-18">
 
@@ -248,11 +247,11 @@ const TermsFooter = () => {
         </div>
       </section>
 
-      {/* ================= PAGE BODY ================= */}
+      {/* PAGE BODY */}
       <main className="bg-white">
         <div className="max-w-7xl mx-33 px-12  grid grid-cols-[260px_1fr] gap-10">
 
-          {/* ================= LEFT SIDEBAR ================= */}
+          {/* LEFT SIDEBAR */}
           <aside className="text-[14px] font-medium leading-7 text-black space-y-2 sticky top-32 self-start">
             <div className="cursor-pointer hover:underline font-bold">
               1. Who May Use the Services
@@ -266,10 +265,10 @@ const TermsFooter = () => {
             <div className="cursor-pointer hover:underline font-bold">6. General</div>
           </aside>
 
-          {/* ================= RIGHT CONTENT ================= */}
+          {/* RIGHT CONTENT */}
           <section className="max-w-7xl">
         
-            {/* ---------- SECTION 1 ---------- */}
+            {/* SECTION 1 */}
             <h2 className="text-5xl text-black font-bold mb-12">
               1. Who May Use the Services
             </h2>
@@ -278,7 +277,7 @@ const TermsFooter = () => {
               You may use the Services only if you agree to form a binding contract with us and are not a person barred from receiving services under the laws of the applicable jurisdiction. In any case, you must be at least 13 years old to use the Services.<br /> If you are (i) accepting these Terms and/or using the Services, which constitutes acceptance of these Terms, or (ii) accepting these Terms in order to authorize the use of the Services on behalf of a minor (being any person under the age of majority in any given country), company, organization, government, or other legal entity, you represent and warrant that you are authorized to do so or, as the case may be, have the authority to bind such minor and/or entity to these Terms. The words “you” and “your” as used in these Terms shall refer either to the person accepting these Terms or<br /> such minor (as defined in (i)) and/or the entity referenced in (ii), as applicable.
             </p>
 
-            {/* ---------- SECTION 2 ---------- */}
+            {/* SECTION 2 */}
             <h2 className="text-5xl text-black font-bold mb-12">
               2. Privacy
             </h2>
@@ -287,7 +286,7 @@ const TermsFooter = () => {
               Our <span className="text-[#1d9bf0] cursor-pointer hover:underline">Privacy Policy</span> (https://x.com/privacy) describes how we handle the information you provide to us when you use the Services. You understand that through your use of the Services you consent to the collection and use (as set forth in the Privacy Policy) of this information, including the transfer of this information to the United States, Ireland, and/or other countries for storage, processing and use by us and our affiliates.
             </p>
 
-            {/* ---------- SECTION 3 ---------- */}
+            {/* SECTION 3 */}
             <h2 className="text-5xl text-black font-bold mb-12">
               3. Content on the Services
             </h2>
@@ -334,7 +333,7 @@ const TermsFooter = () => {
                 You represent and warrant that you have, or have obtained, all rights, licenses, consents, permissions, power and/or authority necessary to grant the rights granted herein for any Content that you input, submit, create, post, generate, or display on or through the Services. You agree and warrant that such Content does not contain material subject to copyright or other proprietary rights, unless you have obtained the necessary permissions or are otherwise legally entitled to post or otherwise use the material and to grant us the license described above.
               </p>
 
-            {/* ---------- SECTION 4 ---------- */}
+            {/* SECTION 4 */}
             <h2 className="text-5xl text-black font-bold mb-12">
               4. Using the Services
             </h2>
@@ -403,7 +402,7 @@ const TermsFooter = () => {
               We may suspend or terminate your account or cease providing you with all or part of the Services at any time if we reasonably believe: (i) you have violated these Terms or <span className="text-[#1d9bf0] cursor-pointer hover:underline">our Rules and Policies</span>, (ii) you create risk or possible legal exposure for us; (iii) your account should be removed due to unlawful conduct; (iv) your account should be removed due to prolonged inactivity; or (v) our provision of the Services to you is no longer commercially viable. We will make reasonable efforts to notify you by the email address associated with your account or the next time you attempt to access your account, depending on the circumstances. To the extent permitted by law, we may also terminate your account or cease providing you with all or part of the Services for any other reason or no reason at our convenience. In all such cases, the Terms shall terminate, including, without limitation, your license to use the Services, except that the following sections shall continue to apply: 2, 3, 5, 6, and the misuse provisions of Section 4 (“Misuse of the Services”). If you believe your account was terminated in error you can file an appeal following the steps found in our <span className="text-[#1d9bf0] cursor-pointer hover:underline">Help Center</span> (<span className="text-[#1d9bf0] cursor-pointer hover:underline">https://help.x.com/forms/account-access/appeals</span>). For the avoidance of doubt, these Terms survive the deactivation or termination of your account.
             </p>
 
-            {/* ---------- SECTION 5 ---------- */}
+            {/* SECTION 5 */}
             <h2 className="text-5xl text-black font-bold mb-12">
               5. Disclaimers and Limitations of Liability
             </h2>
@@ -430,7 +429,7 @@ const TermsFooter = () => {
               Protecting our users’ data and our system resources is important to us. You further agree that, to the extent permitted by applicable law, if you violate the Terms, or you induce or knowingly facilitate others to do so, in addition to all other legal remedies available to us, you will be jointly and severally liable to us for liquidated damages as follows for requesting, viewing, or accessing more than 1,000,000 posts (including reply posts, video posts, image posts, and any other posts) in any 24-hour period - $15,000 USD per 1,000,000 posts. You agree that these amounts are (i) a reasonable estimate of our damages; (ii) not a penalty; and (iii) not otherwise limiting of our ability to recover from you or others under any legal or equitable theory or claim, including but not limited to statutory damages and/or equitable relief. You further agree that repeated violations of these Terms will irreparably harm and entitle us to injunctive and/or other equitable relief, in addition to monetary damages.
             </p>
 
-            {/* ---------- SECTION 6 ---------- */}
+            {/* SECTION 6 */}
             <h2 className="text-5xl text-black font-bold mb-12">
               6. General
             </h2>
@@ -513,7 +512,7 @@ const TermsFooter = () => {
 
         <div className="max-w-7xl mx-33 px-12 mt-30 grid grid-cols-[260px_1fr] gap-10">
 
-          {/* ================= LEFT SIDEBAR ================= */}
+          {/* LEFT SIDEBAR */}
           <aside className="text-[14px] font-medium leading-7 text-black space-y-2 sticky top-32 self-start">
             <div className="cursor-pointer hover:underline font-bold">
               1. Who May Use the Services
@@ -527,10 +526,10 @@ const TermsFooter = () => {
             <div className="cursor-pointer hover:underline font-bold">6. General</div>
           </aside>
 
-          {/* ================= RIGHT CONTENT ================= */}
+          {/* RIGHT CONTENT */}
           <section className="max-w-7xl">
         
-            {/* ---------- SECTION 1 ---------- */}
+            {/* SECTION 1 */}
             <h2 className="text-5xl text-black font-bold mb-12">
               1. Who May Use the Services
             </h2>
@@ -539,7 +538,7 @@ const TermsFooter = () => {
               You may use the Services only if you agree to form a binding contract with us and are not a person barred from receiving services under the laws of the applicable jurisdiction. In any case, you must be at least 13 years old to use the Services.<br /> If you are (i) accepting these Terms and/or using the Services, which constitutes acceptance of these Terms, or (ii) accepting these Terms in order to authorize the use of the Services on behalf of a minor (being any person under the age of majority in any given country), company, organization, government, or other legal entity, you represent and warrant that you are authorized to do so or, as the case may be, have the authority to bind such minor and/or entity to these Terms. The words “you” and “your” as used in these Terms shall refer either to the person accepting these Terms or<br /> such minor (as defined in (i)) and/or the entity referenced in (ii), as applicable.
             </p>
 
-            {/* ---------- SECTION 2 ---------- */}
+            {/* SECTION 2 */}
             <h2 className="text-5xl text-black font-bold mb-12">
               2. Privacy
             </h2>
@@ -548,7 +547,7 @@ const TermsFooter = () => {
               Our <span className="text-[#1d9bf0] cursor-pointer hover:underline">Privacy Policy</span> (https://x.com/privacy) describes how we handle the information you provide to us when you use the Services. You understand that through your use of the Services you consent to the collection and use (as set forth in the Privacy Policy) of this information, including the transfer of this information to the United States, Ireland, and/or other countries for storage, processing and use by us and our affiliates.
             </p>
 
-            {/* ---------- SECTION 3 ---------- */}
+            {/* SECTION 3 */}
             <h2 className="text-5xl text-black font-bold mb-12">
               3. Content on the Services
             </h2>
@@ -595,7 +594,7 @@ const TermsFooter = () => {
                 You represent and warrant that you have, or have obtained, all rights, licenses, consents, permissions, power and/or authority necessary to grant the rights granted herein for any Content that you input, submit, create, post, generate, or display on or through the Services. You agree and warrant that such Content does not contain material subject to copyright or other proprietary rights, unless you have obtained the necessary permissions or are otherwise legally entitled to post or otherwise use the material and to grant us the license described above.
               </p>
 
-            {/* ---------- SECTION 4 ---------- */}
+            {/* SECTION 4 */}
             <h2 className="text-5xl text-black font-bold mb-12">
               4. Using the Services
             </h2>
@@ -664,7 +663,7 @@ const TermsFooter = () => {
               We may suspend or terminate your account or cease providing you with all or part of the Services at any time if we reasonably believe: (i) you have violated these Terms or <span className="text-[#1d9bf0] cursor-pointer hover:underline">our Rules and Policies</span>, (ii) you create risk or possible legal exposure for us; (iii) your account should be removed due to unlawful conduct; (iv) your account should be removed due to prolonged inactivity; or (v) our provision of the Services to you is no longer commercially viable. We will make reasonable efforts to notify you by the email address associated with your account or the next time you attempt to access your account, depending on the circumstances. To the extent permitted by law, we may also terminate your account or cease providing you with all or part of the Services for any other reason or no reason at our convenience. In all such cases, the Terms shall terminate, including, without limitation, your license to use the Services, except that the following sections shall continue to apply: 2, 3, 5, 6, and the misuse provisions of Section 4 (“Misuse of the Services”). If you believe your account was terminated in error you can file an appeal following the steps found in our <span className="text-[#1d9bf0] cursor-pointer hover:underline">Help Center</span> (<span className="text-[#1d9bf0] cursor-pointer hover:underline">https://help.x.com/forms/account-access/appeals</span>). For the avoidance of doubt, these Terms survive the deactivation or termination of your account.
             </p>
 
-            {/* ---------- SECTION 5 ---------- */}
+            {/* SECTION 5 */}
             <h2 className="text-5xl text-black font-bold mb-12">
               5. Limitations of Liability
             </h2>
@@ -679,7 +678,7 @@ const TermsFooter = () => {
               Protecting our users’ data and our system resources is important to us. You further agree that, to the extent permitted by applicable law, if you violate the Terms, or you induce or knowingly facilitate others to do so, in addition to all other legal remedies available to us, you will be jointly and severally liable to us for liquidated damages as follows for requesting, viewing, or accessing more than 1,000,000 posts (including reply posts, video posts, image posts, and any other posts) in any 24-hour period - $15,000 USD per 1,000,000 posts. You agree that these amounts are (i) a reasonable estimate of our damages; (ii) not a penalty; and (iii) not otherwise limiting of our ability to recover from you or others under any legal or equitable theory or claim, including but not limited to statutory damages and/or equitable relief. You further agree that repeated violations of these Terms will irreparably harm and entitle us to injunctive and/or other equitable relief, in addition to monetary damages.
             </p>
 
-            {/* ---------- SECTION 6 ---------- */}
+            {/* SECTION 6 */}
             <h2 className="text-5xl text-black font-bold mb-12">
               6. General
             </h2>
@@ -730,7 +729,6 @@ const TermsFooter = () => {
         <div className="mt-8 mx-120 mb-30 h-px bg-black/50 w-215" />
       </main>
 
-      {/* ================= FOOTER (UNCHANGED) ================= */}
       <BaseFooter />
     </>
   );

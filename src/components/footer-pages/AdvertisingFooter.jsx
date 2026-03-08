@@ -81,6 +81,7 @@ const AdvertisingSection = () => {
             
             {/* X Logo */}
             <img src={XLogo} alt="" className="h-65 w-65" />
+
             {/* Text Content */}
             <div className="max-w-full">
               <h1 className="text-[65px] leading-[1.1] tracking-tight font-bold mb-8">
@@ -129,7 +130,7 @@ const AdvertisingSection = () => {
 
       <section className="bg-black text-white">
 
-        {/* ================= INTRO ================= */}
+        {/* INTRO */}
         <div className="max-w-7xl mx-42 pt-20 px-10 pb-24">
           <h2 className="text-[44px] font-semibold max-w-full leading-[1.1] mb-10">
             Use scroll-stopping formats to stand out on the<br /> timeline
@@ -141,7 +142,7 @@ const AdvertisingSection = () => {
           </p>
         </div>
 
-        {/* ================= PROMOTED ADS ================= */}
+        {/* PROMOTED ADS */}
         <div className="max-w-full mx-52  py-4 flex align items-center">
           {/* LEFT */}
           <div>
@@ -170,7 +171,7 @@ const AdvertisingSection = () => {
           </div>
         </div>
 
-        {/* ================= VERTICAL VIDEO ADS ================= */}
+        {/* VERTICAL VIDEO ADS */}
         <div className="max-w-full mx-52 py-4 pt-20 flex align items-center">
           {/* LEFT */}
           <div>
@@ -197,7 +198,7 @@ const AdvertisingSection = () => {
           </div>
         </div>
 
-        {/* ================= COLLECTION ADS ================= */}
+        {/* COLLECTION ADS */}
         <div className="max-w-full mx-52 pt-20 pb-10 py-4 flex align items-center">
           {/* LEFT */}
           <div>
@@ -224,7 +225,7 @@ const AdvertisingSection = () => {
           </div>
         </div>
 
-        {/* ================= CTA ================= */}
+        {/* CTA */}
         <div className="flex justify-center pt-16 pb-40">
           <button className="px-5 py-2.5 rounded-full bg-linear-to-r from-[#cfd3d6] to-[#9aa0a6] text-black text-[15px] font-bold">
             See all ad formats
@@ -264,6 +265,7 @@ const AdvertisingSection = () => {
             >
               {/* TOP IMAGE SECTION */}
               <div className="relative h-56 bg-black flex items-center justify-center">
+                
                 {/* subtle texture overlay */}
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.06),transparent_70%)] opacity-40" />
 
@@ -380,7 +382,6 @@ const AdvertisingSection = () => {
                   className="w-full h-full object-cover"
                 />
 
-                {/* subtle dark overlay (matches site tone) */}
                 <div className="absolute inset-0 bg-black/20" />
               </div>
 
@@ -458,12 +459,10 @@ const AdvertisingSection = () => {
             </button>
           </div>
 
-          {/* Source (left bottom) */}
           <div className="absolute left-6 bottom-0 text-sm text-white cursor-pointer">
             Source
           </div>
 
-          {/* Dropdown Arrow (right bottom) */}
           <div className="absolute right-6 bottom-0 flex items-center justify-center">
             <img
               src="https://img.icons8.com/?size=100&id=15810&format=png&color=ffffff"

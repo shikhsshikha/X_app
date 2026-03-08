@@ -4,17 +4,25 @@ import { Navigate } from "react-router-dom";
 import { auth } from "../../firebase";
 
 const ProtectedRoute = ({ children }) => {
-  const [user, setUser] = useState(undefined);
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const unsub = onAuthStateChanged(auth, (u) => {
       setUser(u);
+      setLoading(false);
     });
+
     return () => unsub();
   }, []);
 
-  if (user === undefined) return null; // or loader
-  if (!user) return <Navigate to="/" replace />;
+  if (loading) {
+    return null; 
+  }
+
+  if (!user) {
+    return <Navigate to="/" replace />;
+  }
 
   return children;
 };

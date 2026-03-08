@@ -10,23 +10,22 @@ const SignIn = ({ onClose, onOpenSignUp }) => {
   const [errorMsg, setErrorMsg] = useState("");
   const navigate = useNavigate();
 
-  // GOOGLE LOGIN
   const handleGoogleSignIn = async () => {
     try {
-      await signInWithPopup(auth, googleProvider);
+      const result = await signInWithPopup(auth, googleProvider);
 
-      onClose();
-      navigate("/home");
+      if (result.user) {
+        onClose();
+        navigate("/home");
+      }
 
     } catch (err) {
       console.log(err);
     }
   };
 
-  // USERNAME LOGIN
   const handleUsernameLogin = () => {
 
-    // validation
     if (!username.startsWith("@") || username.length < 6) {
       setErrorMsg("Username should start with @ and be at least 6 characters");
       return;
@@ -34,7 +33,6 @@ const SignIn = ({ onClose, onOpenSignUp }) => {
 
     setErrorMsg("");
 
-    // store session
     localStorage.setItem("usernameLoggedIn", username);
 
     onClose();
@@ -42,7 +40,7 @@ const SignIn = ({ onClose, onOpenSignUp }) => {
   };
 
   return (
-    <div className="fixed inset-0 z-[9999] bg-black/60 flex items-center justify-center">
+    <div className="fixed inset-0 z-9999 bg-black/60 flex items-center justify-center">
 
       <div className="relative w-140 h-160 bg-black rounded-xl border border-gray-800 px-30 py-8">
 

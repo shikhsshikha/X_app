@@ -6,7 +6,7 @@ import BaseFooter from "../BaseFooter";
 const AdditionalSignupLoginHelp  = () => {
   return (
     <div className="min-h-screen bg-white text-black">
-      {/* Sticky Navbar */}
+      {/* Navbar */}
       <header className="sticky top-0 z-50 bg-white ">
         <div className="h-16 max-w mx-auto px-8 py-12 flex items-center justify-between">
 
@@ -53,7 +53,7 @@ const AdditionalSignupLoginHelp  = () => {
 
       {/* Content */}
       <main className="max-w-5xl mx-70 px-6 py-12">
-        {/* Breadcrumb */}
+       
         <p className="text-sm text-black mb-6">
           Help Center &gt; Login and password &gt; About additional sign up and log in details
         </p>
@@ -66,7 +66,7 @@ const AdditionalSignupLoginHelp  = () => {
 
         <hr className="mb-10" />
 
-        {/* Body text */}
+        {/* Body */}
         <div className="space-y-3 max-w-3xl ml-20 mt-20 text-[18px] leading-7 text-gray-800">
           <p>
             In order to keep X safe, we may ask certain users to provide additional information when signing up or logging in.

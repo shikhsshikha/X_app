@@ -18,7 +18,6 @@ const RightPanel = ({ onSignupSuccess }) => {
     <div className="space-y-4">
       <AuthButtons onSignupSuccess={() => setShowVerifyPopup(true)} />
 
-      {/* 🔥 Verify Username Popup */}
       {showVerifyPopup && (
         <VerifyUsername onClose={() => setShowVerifyPopup(false)} />
       )}

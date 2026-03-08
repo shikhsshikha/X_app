@@ -52,7 +52,6 @@ const Feed = () => {
         return {
           ...post,
 
-          // 🔥 IMPORTANT CHANGE
           image: post.urlToImage || `https://picsum.photos/seed/${index}/500/400`,
 
           publishedAt: fakeTime,
@@ -64,7 +63,6 @@ const Feed = () => {
           commentsCount: Math.floor(Math.random() * 50),
           showComment: false,
 
-          // ⭐ NEW DATA
           verified: ["BBC News", "CNN", "Reuters", "The Verge"].includes(
             post.source?.name
           ),
@@ -110,7 +108,7 @@ const Feed = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentTime(new Date());
-    }, 60000); // updates every minute
+    }, 60000); 
 
     return () => clearInterval(timer);
   }, []);

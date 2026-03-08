@@ -19,7 +19,6 @@ const NewsFooter = () => {
 
   const API_KEY = import.meta.env.VITE_NEWS_API_KEY;
 
-  /* CHECK LOGIN */
   useEffect(() => {
     const unsub = onAuthStateChanged(auth, (u) => {
       setUser(u);
@@ -158,7 +157,7 @@ const NewsFooter = () => {
               </div>
 
 
-              {/* FOOTER LINKS (OUTSIDE CARD) */}
+              {/* FOOTER LINKS */}
               <div className="text-[13px] text-gray-500 mt-4 max-w-87.5 space-y-2">
 
                 <div className="flex flex-wrap gap-x-2">

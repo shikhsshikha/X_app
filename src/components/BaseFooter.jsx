@@ -13,7 +13,7 @@ const BaseFooter = () => {
   return (
     <section>
 
-      {/* ================= DESKTOP FOOTER ================= */}
+      {/* DESKTOP FOOTER */}
       <footer className="hidden md:block bg-[#0f1419] px-20 py-21">
         <div className="grid grid-cols-5 text-[#A1A1A1] gap-12 text-sm">
 
@@ -102,7 +102,7 @@ const BaseFooter = () => {
         </div>
       </footer>
 
-      {/* ================= MOBILE FOOTER ================= */}
+      {/* MOBILE FOOTER */}
       <footer className="md:hidden bg-[#0f1419] text-[#A1A1A1] px-6 py-8">
 
         {/* X platform */}

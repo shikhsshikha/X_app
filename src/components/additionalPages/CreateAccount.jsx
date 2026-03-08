@@ -28,7 +28,6 @@ const CreateAccount = ({ onClose }) => {
       return;
     }
 
-    // later: save data to Firestore
     console.log({
       uid: user.uid,
       name,
@@ -129,7 +128,6 @@ const CreateAccount = ({ onClose }) => {
           </select>
         </div>
 
-        {/* Spacer */}
         <div className="h-10" />
 
         {/* Next */}

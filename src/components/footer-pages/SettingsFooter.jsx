@@ -1,7 +1,6 @@
 import { useState } from "react";
 import XLogo from "../../assets/logo-white.png";
 
-
 const SettingsFooter = () => {
 
   const [activeMenu, setActiveMenu] = useState("personalization");

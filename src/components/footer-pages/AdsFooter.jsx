@@ -6,7 +6,7 @@ const AdsFooter = () => {
     <div className="bg-white text-[#0f1419]">
       
 
-      {/* ================= NAVBAR 1: X BUSINESS ================= */}
+      {/* NAVBAR 1: X BUSINESS */}
       <header className="bg-white border-b border-[#e6ecf0]">
         <div className="max-w-384 mx-auto px-12 h-25 flex items-center justify-between">
 
@@ -55,7 +55,7 @@ const AdsFooter = () => {
         </div>
       </header>
 
-      {/* ================= NAVBAR 2: ADS HELP CENTER (STICKY) ================= */}
+      {/* NAVBAR 2: ADS HELP CENTER (STICKY) */}
       <header className="sticky top-0 z-50 bg-white border-b border-[#e6ecf0]">
         <div className="max-w-384 mx-auto px-12 h-18 flex items-center justify-between">
 
@@ -80,7 +80,7 @@ const AdsFooter = () => {
         </div>
       </header>
 
-      {/* ================= HERO ================= */}
+      {/* HERO */}
       <section className="relative h-85 bg-[#0f1419] text-white">
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative max-w-384 mx-auto px-12 h-full flex items-center">
@@ -90,7 +90,7 @@ const AdsFooter = () => {
         </div>
       </section>
 
-      {/* ================= BREADCRUMB + INTRO ================= */}
+      {/* BREADCRUMB + INTRO */}
       <section className="max-w-7xl mx-40 px-6 mt-14 mb-6">
         <p className="text-[14px] text-[#536471] mb-18">
           Help Center &gt; Troubleshooting and FAQs &gt;{" "}
@@ -104,7 +104,7 @@ const AdsFooter = () => {
         </p>
       </section>
 
-      {/* ================= ARTICLE CONTENT ================= */}
+      {/* ARTICLE CONTENT */}
       <section className="max-w-7xl mx-40 px-6 ">
 
         <h2 className="text-[34px] font-bold mb-4">
@@ -140,7 +140,7 @@ const AdsFooter = () => {
 
       </section>
 
-      {/* ================= PRIVACY SETTINGS ================= */}
+      {/* PRIVACY SETTINGS */}
       <section className="max-w-7xl mx-40 px-6 pb-24">
 
         <h2 className="text-[34px] font-bold mb-4">
@@ -194,7 +194,7 @@ const AdsFooter = () => {
 
       </section>
 
-      {/* ================= HELPFUL SECTION ================= */}
+      {/* HELPFUL SECTION */}
       <section className="bg-[#f7f9f9] py-8 text-center">
         <div>
           <h2 className="text-[28px] font-bold mb-6">
@@ -220,7 +220,7 @@ const AdsFooter = () => {
 
       </div>
 
-      {/* ================= CTA ================= */}
+      {/* CTA */}
       <section className="relative h-85 bg-black text-white">
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative max-w-384 mx-40 px-12 h-full flex flex-col justify-center">
@@ -234,7 +234,7 @@ const AdsFooter = () => {
         </div>
       </section>
 
-      {/* ================= FOOTER ================= */}
+      {/* FOOTER */}
       <footer className="bg-[#1f2933] text-white py-10">
         <div className="max-w-384 mx-40 px-12 flex gap-120 text-[14px] text-white/70">
           <span>© 2026 X Corp.</span>

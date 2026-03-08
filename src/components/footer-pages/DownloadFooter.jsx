@@ -6,7 +6,7 @@ import BaseFooter from "../BaseFooter";
 const DownloadFooter = () => {
   return (
     <>
-      {/* ================= TOP NAVBAR ================= */}
+      {/* TOP NAVBAR */}
       <header className="sticky top-0 z-50 bg-white">
         <div className="h-14  px-8 py-11 flex items-center justify-between">
 
@@ -59,10 +59,10 @@ const DownloadFooter = () => {
         </div>
       </header>
 
-      {/* ================= MAIN CONTENT ================= */}
+      {/* MAIN CONTENT */}
       <main className="bg-white">
 
-        {/* ===== HERO ===== */}
+        {/* HERO */}
         <section className="max-w-5xl mx-auto px-10 pt-20">
           <h1 className="text-[69px] font-bold leading-18 text-[#0f1419]">
             Download the X app for iOS and Android
@@ -101,7 +101,7 @@ const DownloadFooter = () => {
           </ul>
         </section>
 
-        {/* ===== iOS ===== */}
+        {/* iOS */}
         <section className="max-w-5xl mx-auto px-10 py-8">
           <h1 className="text-[35px]  font-bold   text-[#0f1419]">X app for iOS</h1>
           <div className="w-20 h-1.5 bg-[#0f7cc5] mt-3 mb-8" />
@@ -115,7 +115,7 @@ const DownloadFooter = () => {
           </p>
         </section>
 
-        {/* ===== ANDROID ===== */}
+        {/* ANDROID */}
         <section className="max-w-5xl mx-auto px-10 ">
           <h2 className="text-[35px] font-bold text-[#0f1419]">X app for Android</h2>
           <div className="w-20 h-1.5 bg-[#0f7cc5] mt-3 mb-8" />
@@ -131,7 +131,7 @@ const DownloadFooter = () => {
           </p>
         </section>
 
-        {/* ===== FAQ ===== */}
+        {/* FAQ */}
         <section className="max-w-5xl mx-auto px-10 pb-18">
 
           {/* Top divider */}
@@ -207,7 +207,7 @@ const DownloadFooter = () => {
           </div>
         </section>
 
-        {/* ===== SHARE ===== */}
+        {/* SHARE */}
         <section className="max-w-5xl mx-auto px-10 py-13 mb-6">
           <h2 className="text-[33px] text-[#0f1419] font-bold mb-6">Share this article</h2>
           <button className="flex items-center gap-2 px-6 py-3 rounded-full bg-[#E6ECF0] text-[16px] font-semibold text-[#0f1419]">

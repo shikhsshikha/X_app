@@ -5,7 +5,6 @@ const CookiesFooter = () => {
   return (
     <main className="bg-white text-black">
 
-      {/* ================= BREADCRUMB ================= */}
       <header className="sticky top-0 z-50 bg-white">
         <div className="h-14  px-8 py-11 flex items-center justify-between">
 
@@ -59,11 +58,9 @@ const CookiesFooter = () => {
       </header>
 
 
-      {/* ================= TITLE ================= */}
-      {/* ===== BREADCRUMB + TITLE ===== */}
+      {/* TITLE */}
       <section className="max-w-5xl mx-auto px-6 pt-10">
 
-        {/* Breadcrumb */}
         <p className="text-[14px] text-[#536471] mb-10">
           Help Center &nbsp;&gt;&nbsp; Platform Use Guidelines &nbsp;&gt;&nbsp;
           <span className="text-[#0f1419]">
@@ -82,7 +79,7 @@ const CookiesFooter = () => {
       </section>
 
 
-      {/* ================= CONTENT ================= */}
+      {/* CONTENT */}
       <section className="max-w-4xl  px-6 ml-88 py-14 text-[18px] leading-[1.6] text-[#0f1419]">
 
         {/* Intro */}
@@ -115,7 +112,7 @@ const CookiesFooter = () => {
           </li>
         </ul>
 
-        {/* Jump links */}
+        {/* links */}
         <div className="space-y-3 mb-6">
           <p className="text-[#1d9bf0] underline cursor-pointer">
             What are cookies, pixels, and local storage?
@@ -134,7 +131,7 @@ const CookiesFooter = () => {
           </p>
         </div>
 
-        {/* ================= SECTION ================= */}
+        {/* SECTION */}
         <h2 className="text-[32px] font-bold mb-6">
           What are cookies, pixels, and local storage?
         </h2>
@@ -154,7 +151,7 @@ const CookiesFooter = () => {
           We use <strong>local storage</strong> to save data on your computer or mobile device. We use data<br /> from local storage to turn on web navigation, maintain video player preferences,<br /> customize what we show you based on your past interactions with our services,<br /> remember your preferences, and measure ad effectiveness. We may also use local<br /> storage on other websites, where necessary to provide you certain features, to obtain<br /> information about your visits to those sites.
         </p>
 
-        {/* ================= SECTION ================= */}
+        {/* SECTION */}
         <h2 className="text-[32px] font-bold mb-6">
           Why do our services use these technologies?
         </h2>
@@ -271,7 +268,7 @@ const CookiesFooter = () => {
 
 
 
-        {/* ================= SECTION ================= */}
+        {/* SECTION */}
         <h2 className="text-[32px] font-bold mb-10">
           Where are these technologies used?
         </h2>
@@ -280,7 +277,7 @@ const CookiesFooter = () => {
           We (along with third parties) use these technologies on X services, which includes our<br /> websites, applications, and services and on other websites, applications, and services<br /> that have integrated X services, including third-party properties that incorporate our<br /> advertising technology. This includes our ad partners’ websites and sites that use our<br /> embeds, including embedded timelines. Third parties may also use these technologies,<br /> for example, when you click on links from X services, view or interact with third-party<br /> content in X services, or visit third-party websites that incorporate our advertising<br /> technology.
         </p>
 
-        {/* ================= SECTION ================= */}
+        {/* SECTION */}
         <h2 className="text-[32px] font-bold mb-10">
           What are my privacy options?
         </h2>
@@ -330,7 +327,7 @@ const CookiesFooter = () => {
           </li>
         </ul>
 
-        {/* ================= SECTION ================= */}
+        {/* SECTION */}
         <h2 className="text-[32px] font-bold mb-10">
           More privacy options
         </h2>
@@ -350,7 +347,7 @@ const CookiesFooter = () => {
           account, you'll need to log in<br /> to the web browser. Changing your X settings in the web browser when you’re logged out<br /> will only affect behavior on that browser while you aren't logged in to X. Read our article<br /> on how to access your <span className="text-[#1d9bf0] underline cursor-pointer">personalization and data settings</span> for more.
         </p>
 
-        {/* ================= FOOT NOTE ================= */}
+        {/* FOOT NOTE */}
         <div className="w-195 h-px bg-black/40 mb-20 mt-20" />
 
         <p className="max-w-7xl text-[18px] leading-[1.6] text-[#0f1419]">
@@ -359,7 +356,7 @@ const CookiesFooter = () => {
       </section>
 
 
-      {/* ===== COOKIES TABLE SECTION ===== */}
+      {/* COOKIES TABLE SECTION */}
       <section className="max-w-7xl mx-auto px-10 py-8">
 
         {/* Table */}
@@ -459,10 +456,10 @@ const CookiesFooter = () => {
         </div>
       </section>
 
-      {/* ===== SHARE THIS ARTICLE ===== */}
+      {/* SHARE THIS ARTICLE */}
       <section className="max-w-3xl mx-auto py-13 mb-35">
 
-        {/* Divider above */}
+        {/* Divider */}
         <div className="w-full h-px bg-black mb-16" />
 
         <h2 className="text-[32px] font-bold text-[#0f1419] mb-8">

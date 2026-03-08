@@ -19,12 +19,10 @@ const VerifyUsername = ({ onClose }) => {
       );
       return;
     }
-
-    // ✅ username verified successfully
     setError("");
 
-    onClose();          // close popup
-    navigate("/home");  // 🚀 go to home
+    onClose();          
+    navigate("/home");  
   };
 
   return (
@@ -97,7 +95,6 @@ const VerifyUsername = ({ onClose }) => {
           </p>
         </div>
 
-        {/* Spacer */}
         <div className="grow" />
 
         {/* Next button */}

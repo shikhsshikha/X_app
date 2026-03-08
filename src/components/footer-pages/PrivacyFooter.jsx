@@ -5,7 +5,7 @@ const PrivacyFooter = () => {
   return (
     <main className="bg-white text-black">
 
-      {/* ================= TOP HEADER ================= */}
+      {/* TOP HEADER */}
 
       <header className="sticky top-0 z-50 bg-white">
         <div className="max-w-384 mx-auto px-12 h-20 mt-4 flex items-center justify-between">
@@ -44,7 +44,7 @@ const PrivacyFooter = () => {
       </header>
 
 
-      {/* ================= HERO ================= */}
+      {/* HERO */}
       <section className="bg-white">
 
         {/* Big Title */}
@@ -63,7 +63,7 @@ const PrivacyFooter = () => {
       </section>
 
 
-      {/* ================= INTRO ================= */}
+      {/* INTRO */}
       <section className="bg-white">
         <div className="max-w-7xl mx-auto px-8 md:px-20 py-28 ">
           <h2 className="text-[35px] font-bold mb-8">
@@ -89,7 +89,7 @@ const PrivacyFooter = () => {
         </div>
       </section>
 
-      {/* ================= HIGHLIGHTS ================= */}
+      {/* HIGHLIGHTS */}
       <section className="bg-white">
         <div className="max-w-7xl mx-auto px-8  md:px-20 py-5 grid grid-cols-1 md:grid-cols-3 gap-x-20 gap-y-28">
           {[
@@ -113,7 +113,7 @@ const PrivacyFooter = () => {
         </div>
       </section>
 
-      {/* ================= MAIN CONTENT ================= */}
+      {/* MAIN CONTENT */}
       <section className="bg-white">
         <div className="max-w-7xl mx-auto px-8 md:px-20 py-28 grid grid-cols-1 md:grid-cols-[260px_1fr] gap-10">
           
@@ -871,7 +871,7 @@ const PrivacyFooter = () => {
         </div>
       </section>
 
-      {/* ================= CTA ================= */}
+      {/* CTA */}
       <section className="bg-white">
         <div className="max-w-7xl mx-auto px-8 md:px-20 mt-50 mb-35">
           <h2 className="text-7xl font-bold mb-10">

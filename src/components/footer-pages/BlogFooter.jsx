@@ -5,7 +5,7 @@ const BlogFooter = () => {
   return (
     <div className="bg-white text-[#0f1419]">
 
-      {/* ================= NAVBAR ================= */}
+      {/* NAVBAR */}
       <header className="bg-black text-white">
         <div className="max-w-full ml-4 h-20 flex">
 
@@ -46,7 +46,7 @@ const BlogFooter = () => {
         </div>
       </header>
 
-      {/* ================= HERO ================= */}
+      {/* HERO */}
       <section className="relative h-140 bg-black text-white overflow-hidden">
         <div className="absolute inset-0 bg-black/60" />
 
@@ -70,7 +70,7 @@ const BlogFooter = () => {
         </div>
       </section>
 
-      {/* ================= LATEST POSTS ================= */}
+      {/* LATEST POSTS */}
       <section className="max-w-8xl mx-30 px-6 py-24">
         <div className="grid grid-cols-[200px_1fr] gap-40">
 
@@ -218,7 +218,7 @@ const BlogFooter = () => {
         <hr className="border-[#e6ecf0] -mb-12" />
       </section>
 
-      {/* ================= POPULAR TAGS ================= */}
+      {/* POPULAR TAGS */}
       <section className="w-full mx-30 pb-32">
         <h2 className="text-[24px] font-bold mb-10">Popular tags</h2>
 
@@ -238,7 +238,7 @@ const BlogFooter = () => {
         </p>
       </section>
 
-      {/* ================= FOOTER ================= */}
+      {/* FOOTER */}
       <BaseFooter />
 
     </div>

@@ -77,7 +77,7 @@ const MarketingFooter = () => {
         <div className="max-w-full  px-38 py-8">
           <div className="flex items-center justify-between gap-10">
 
-            {/* ================= LEFT CONTENT ================= */}
+            {/* LEFT CONTENT */}
             <div className="max-w-xl">
               <h1 className="text-[64px] leading-[1.1] tracking-wide font-bold mb-8">
                 Increase sales
@@ -103,7 +103,7 @@ const MarketingFooter = () => {
               </div>
             </div>
 
-            {/* ================= RIGHT IMAGE ================= */}
+            {/* IMAGE */}
             <div className="shrink-0">
               <img
                 src={marketingHeroImg}
@@ -219,7 +219,7 @@ const MarketingFooter = () => {
           {/* CARDS */}
           <div className="grid grid-cols-3 gap-10">
 
-            {/* ================= CARD 1 ================= */}
+            {/* CARD 1 */}
             <div
               className="
                 group relative rounded-md p-8
@@ -254,7 +254,7 @@ const MarketingFooter = () => {
               </div>
             </div>
 
-            {/* ================= CARD 2 ================= */}
+            {/* CARD 2 */}
             <div
               className="
                 group relative rounded-md p-8
@@ -289,7 +289,7 @@ const MarketingFooter = () => {
               </div>
             </div>
 
-            {/* ================= CARD 3 ================= */}
+            {/* CARD 3 */}
             <div
               className="
                 group relative rounded-md p-8
@@ -365,7 +365,7 @@ const MarketingFooter = () => {
           {/* CARDS */}
           <div className="grid grid-cols-3 gap-10">
 
-            {/* ================= CARD 1 ================= */}
+            {/* CARD 1 */}
             <div
               className="
                 group relative h-120 rounded-md overflow-hidden
@@ -402,7 +402,7 @@ const MarketingFooter = () => {
               </div>
             </div>
 
-            {/* ================= CARD 2 ================= */}
+            {/* CARD 2 */}
             <div
               className="
                 group relative h-120 rounded-md overflow-hidden
@@ -439,7 +439,7 @@ const MarketingFooter = () => {
               </div>
             </div>
 
-            {/* ================= CARD 3 ================= */}
+            {/* CARD 3 */}
             <div
               className="
                 group relative h-120 rounded-md overflow-hidden

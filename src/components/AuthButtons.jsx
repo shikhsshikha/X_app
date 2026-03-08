@@ -6,7 +6,7 @@ const AuthButtons = ({ onSignupSuccess }) => {
   const handleGoogleSignup = async () => {
     try {
       await signInWithPopup(auth, googleProvider);
-      onSignupSuccess(); // 🔥 open VerifyUsername
+      onSignupSuccess();
     } catch (err) {
       console.log("Google popup closed");
     }
@@ -15,7 +15,7 @@ const AuthButtons = ({ onSignupSuccess }) => {
   const handleAppleSignup = async () => {
     try {
       await signInWithPopup(auth, appleProvider);
-      onSignupSuccess(); // 🔥 same flow
+      onSignupSuccess(); 
     } catch (err) {
       console.log("Apple popup closed");
     }

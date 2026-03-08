@@ -4,9 +4,7 @@ const CareersFooter = () => {
   return (
     <div className="w-full text-white">
 
-      {/* ================================================== */}
-      {/* ================= STICKY NAVBAR ================= */}
-      {/* ================================================== */}
+      {/* STICKY NAVBAR */}
       <header className="sticky top-0 z-60 bg-transparent">
         <div className="max-w-7xl mx-auto px-10 h-20 flex items-center justify-between text-white">
 
@@ -45,18 +43,15 @@ const CareersFooter = () => {
         </div>
       </header>
 
-      {/* ================================================== */}
-      {/* =============== GRADIENT HERO SECTION ============ */}
-      {/* ================================================== */}
+      {/* GRADIENT HERO SECTION */}
       <section>
 
-        {/* GRADIENT BACKGROUND */}
         <div className="absolute inset-0 bg-linear-to-b from-[#6a563f] via-[#1a1a1a] to-black" />
 
         {/* CONTENT WRAPPER */}
         <div className="relative">
 
-          {/* ---------------- HERO TEXT ---------------- */}
+          {/* HERO TEXT */}
           <section className="max-w-full mx-30 px-10 pt-30 text-white">
             <p className="text-xs tracking-widest opacity-60 mb-10">
               [ OUR PURPOSE ]
@@ -73,7 +68,7 @@ const CareersFooter = () => {
             </button>
           </section>
 
-          {/* ---------------- ARROW + PARAGRAPH ---------------- */}
+          {/* ARROW + PARAGRAPH */}
           <section className="flex items-center justify-between px-40 pt-40">
             <img
               src="https://img.icons8.com/?size=100&id=41189&format=png&color=ffffff"
@@ -96,9 +91,7 @@ const CareersFooter = () => {
           <div className="w-full h-px bg-white/15" />
         </div>
 
-        {/* ================================================== */}
-        {/* ================= OUR PRINCIPLES =============== */}
-        {/* ================================================== */}
+        {/* OUR PRINCIPLES */}
         <section className="max-w-full mx-40 pt-32 pb-40 grid grid-cols-2 gap-80">
           <div>
             <p className="text-xs tracking-widest opacity-60 mb-6">
@@ -116,9 +109,7 @@ const CareersFooter = () => {
           </p>
         </section>
 
-        {/* ================================================== */}
-        {/* ================= BENEFITS GRID ================= */}
-        {/* ================================================== */}
+        {/* BENEFITS GRID */}
         <section className="max-w-full mx-40 px-10 pb-10 relative">
 
           {/* VERTICAL DIVIDERS */}
@@ -305,12 +296,10 @@ const CareersFooter = () => {
         </section>
       </section>
 
-      {/* ================================================== */}
-      {/* ================= BLACK SECTION ================== */}
-      {/* ================================================== */}
+      {/* BLACK SECTION */}
       <section className="bg-black">
 
-        {/* ---------------- FEATURED ROLES ---------------- */}
+        {/* FEATURED ROLES */}
         <section className="max-w-full mx-40  py-40 grid grid-cols-2 text-white">
 
           {/* LEFT */}
@@ -386,10 +375,10 @@ const CareersFooter = () => {
           </div>
         </section>
 
-        {/* ---------------- INTERVIEW PROCESS ---------------- */}
+        {/* INTERVIEW PROCESS */}
         <section className="max-w-full mx-40 pt-20 pb-40">
 
-          {/* ===== HEADER ROW ===== */}
+          {/* HEADER ROW */}
           <div className="grid grid-cols-2 gap-80 mb-32">
             {/* LEFT */}
             <div>
@@ -409,7 +398,7 @@ const CareersFooter = () => {
             </p>
           </div>
 
-          {/* ===== STEPS ===== */}
+          {/* STEPS */}
           <div className="space-y-12">
 
             {/* STEP 1 */}
@@ -491,7 +480,7 @@ const CareersFooter = () => {
 
           <div className="grid grid-cols-2 gap-52 items-center">
 
-            {/* ================= LEFT CONTENT ================= */}
+            {/* LEFT CONTENT */}
             <div>
               <p className="text-xs tracking-[0.25em] text-white/50 mb-8">
                 [ OFFICES ]
@@ -513,7 +502,7 @@ const CareersFooter = () => {
               </button>
             </div>
 
-            {/* ================= RIGHT GLOBE ================= */}
+            {/* RIGHT GLOBE */}
             <div className="relative flex justify-center items-center">
 
               {/* Globe SVG */}
@@ -546,7 +535,7 @@ const CareersFooter = () => {
                   strokeWidth="1"
                 />
 
-                {/* ================= ORANGE ARCS ================= */}
+                {/* ORANGE ARCS */}
                 <path
                   d="M160 260 C240 180, 360 180, 440 240"
                   stroke="#ff6a00"
@@ -560,7 +549,7 @@ const CareersFooter = () => {
                   fill="none"
                 />
 
-                {/* ================= MARKERS ================= */}
+                {/* MARKERS */}
                 {/* San Francisco */}
                 <rect x="230" y="270" width="10" height="10" fill="#ff6a00" />
                 <text x="250" y="275" fill="white" fontSize="12">
